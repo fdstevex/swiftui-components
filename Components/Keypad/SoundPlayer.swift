@@ -17,6 +17,23 @@ class SoundPlayer {
     static var shared = SoundPlayer()
     var player: AVAudioPlayer?
     
+    #if os(macOS)
+    func play(_ soundName: String) -> Void {
+        guard let url = Bundle.main.url(forResource: "Sound Files/" + soundName, withExtension: ".mp3") else {
+            fatalError()
+        }
+        
+        do {
+            self.player = try AVAudioPlayer(contentsOf: url)
+            self.player?.prepareToPlay()
+            self.player?.play()
+        } catch let error {
+            NSLog("Error playing sound: \(error)")
+        }
+    }
+    #endif
+    
+    #if os(iOS)
     func play(_ soundName: String) {
         do {
             if let player = player {
@@ -42,5 +59,7 @@ class SoundPlayer {
             NSLog("Error playing sound: \(error)")
         }
     }
+    #endif
+    
 }
 
