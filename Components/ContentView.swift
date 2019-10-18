@@ -8,9 +8,33 @@
 
 import SwiftUI
 
-struct ContentView: View {
+enum Samples {
+    case none
+    case keypad
+}
+
+struct SampleMenu : View {
+    @Binding var selected: Samples
+    
     var body: some View {
-        Text("Hello World")
+        VStack {
+            Button(action: { self.selected = .keypad }) {
+                Text("Keypad")
+            }
+        }
+    }
+}
+
+struct ContentView: View {
+    @State var selectedSample = Samples.none
+    
+    var body: some View {
+        switch selectedSample {
+        case .none:
+            return AnyView(SampleMenu(selected: $selectedSample))
+        case .keypad:
+            return AnyView(KeypadContainerView())
+        }
     }
 }
 
