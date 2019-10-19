@@ -11,6 +11,7 @@ import SwiftUI
 enum Samples {
     case none
     case keypad
+    case hyperlink
 }
 
 struct SampleMenu : View {
@@ -20,6 +21,9 @@ struct SampleMenu : View {
         VStack {
             Button(action: { self.selected = .keypad }) {
                 Text("Keypad")
+            }
+            Button(action: { self.selected = .hyperlink }) {
+                Text("Hyperlink")
             }
         }
     }
@@ -34,6 +38,8 @@ struct ContentView: View {
             return AnyView(SampleMenu(selected: $selectedSample))
         case .keypad:
             return AnyView(KeypadContainerView())
+        case .hyperlink:
+            return AnyView(HyperlinkView())
         }
     }
 }
