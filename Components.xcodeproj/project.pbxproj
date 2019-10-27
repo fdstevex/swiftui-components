@@ -24,6 +24,8 @@
 		846B59622356833D00E56491 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B595F2356833D00E56491 /* SoundPlayer.swift */; };
 		846B59632356833D00E56491 /* Sound Files in Resources */ = {isa = PBXBuildFile; fileRef = 846B59602356833D00E56491 /* Sound Files */; };
 		846B59642356833D00E56491 /* KeypadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B59612356833D00E56491 /* KeypadView.swift */; };
+		84A6C0EF2364FA0C00166014 /* DraggableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6C0EE2364FA0C00166014 /* DraggableViews.swift */; };
+		84A6C0F02364FA0C00166014 /* DraggableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6C0EE2364FA0C00166014 /* DraggableViews.swift */; };
 		84B46C66235B5EA100BF8324 /* HyperlinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B46C65235B5EA100BF8324 /* HyperlinkView.swift */; };
 		84B46C67235B5EA100BF8324 /* HyperlinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B46C65235B5EA100BF8324 /* HyperlinkView.swift */; };
 /* End PBXBuildFile section */
@@ -47,6 +49,7 @@
 		846B595F2356833D00E56491 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		846B59602356833D00E56491 /* Sound Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Sound Files"; sourceTree = "<group>"; };
 		846B59612356833D00E56491 /* KeypadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeypadView.swift; sourceTree = "<group>"; };
+		84A6C0EE2364FA0C00166014 /* DraggableViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableViews.swift; sourceTree = "<group>"; };
 		84B46C65235B5EA100BF8324 /* HyperlinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperlinkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +118,7 @@
 				846B595E235682DB00E56491 /* App Stuff */,
 				846B595D235682C600E56491 /* Keypad */,
 				84B46C64235B5E8700BF8324 /* Hyperlink */,
+				84A6C0ED2364F9D300166014 /* DraggableViews */,
 				846B594D23567F9600E56491 /* ContentView.swift */,
 			);
 			path = Components;
@@ -147,6 +151,14 @@
 				846B595423567F9900E56491 /* LaunchScreen.storyboard */,
 			);
 			path = "App Stuff";
+			sourceTree = "<group>";
+		};
+		84A6C0ED2364F9D300166014 /* DraggableViews */ = {
+			isa = PBXGroup;
+			children = (
+				84A6C0EE2364FA0C00166014 /* DraggableViews.swift */,
+			);
+			path = DraggableViews;
 			sourceTree = "<group>";
 		};
 		84B46C64235B5E8700BF8324 /* Hyperlink */ = {
@@ -261,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A6C0F02364FA0C00166014 /* DraggableViews.swift in Sources */,
 				840FDCC52359572B002D25F9 /* AppDelegate.swift in Sources */,
 				840FDCD623595764002D25F9 /* SoundPlayer.swift in Sources */,
 				840FDCD7235958CF002D25F9 /* ContentView.swift in Sources */,
@@ -273,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A6C0EF2364FA0C00166014 /* DraggableViews.swift in Sources */,
 				846B594A23567F9600E56491 /* AppDelegate.swift in Sources */,
 				84B46C66235B5EA100BF8324 /* HyperlinkView.swift in Sources */,
 				846B59642356833D00E56491 /* KeypadView.swift in Sources */,
