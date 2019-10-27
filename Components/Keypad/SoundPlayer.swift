@@ -3,7 +3,6 @@
 //  KeypadSample
 //
 //  Created by Steve Tibbett on 2019-10-12.
-//  Copyright © 2019 Steve Tibbett. All rights reserved.
 //
 
 import Foundation

@@ -3,7 +3,6 @@
 //  Components
 //
 //  Created by Steve Tibbett on 2019-10-15.
-//  Copyright © 2019 Steve Tibbett. All rights reserved.
 //
 
 import SwiftUI
@@ -12,6 +11,7 @@ enum Samples {
     case none
     case keypad
     case hyperlink
+    case drag
 }
 
 struct SampleMenu : View {
@@ -24,6 +24,9 @@ struct SampleMenu : View {
             }
             Button(action: { self.selected = .hyperlink }) {
                 Text("Hyperlink")
+            }
+            Button(action: { self.selected = .drag }) {
+                Text("Drag")
             }
         }
     }
@@ -40,6 +43,8 @@ struct ContentView: View {
             return AnyView(KeypadContainerView())
         case .hyperlink:
             return AnyView(HyperlinkView())
+        case .drag:
+            return AnyView(DraggableContainerView())
         }
     }
 }

@@ -3,7 +3,6 @@
 //  Components
 //
 //  Created by Steve Tibbett on 2019-10-19.
-//  Copyright © 2019 Steve Tibbett. All rights reserved.
 //
 
 import Foundation

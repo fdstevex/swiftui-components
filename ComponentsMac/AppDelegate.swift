@@ -3,7 +3,6 @@
 //  ComponentsMac
 //
 //  Created by Steve Tibbett on 2019-10-17.
-//  Copyright © 2019 Steve Tibbett. All rights reserved.
 //
 
 import Cocoa
