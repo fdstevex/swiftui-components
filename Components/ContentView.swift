@@ -12,6 +12,7 @@ enum Samples {
     case keypad
     case hyperlink
     case drag
+    case preferenceKeyAlign
 }
 
 struct SampleMenu : View {
@@ -27,6 +28,9 @@ struct SampleMenu : View {
             }
             Button(action: { self.selected = .drag }) {
                 Text("Drag")
+            }
+            Button(action: { self.selected = .preferenceKeyAlign }) {
+                Text("Alignment with PreferenceKey")
             }
         }
     }
@@ -45,6 +49,8 @@ struct ContentView: View {
             return AnyView(HyperlinkView())
         case .drag:
             return AnyView(DraggableContainerView())
+        case .preferenceKeyAlign:
+            return AnyView(PreferenceKeyAlignView())
         }
     }
 }

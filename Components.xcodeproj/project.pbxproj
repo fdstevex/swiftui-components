@@ -28,6 +28,8 @@
 		84A6C0F02364FA0C00166014 /* DraggableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6C0EE2364FA0C00166014 /* DraggableViews.swift */; };
 		84B46C66235B5EA100BF8324 /* HyperlinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B46C65235B5EA100BF8324 /* HyperlinkView.swift */; };
 		84B46C67235B5EA100BF8324 /* HyperlinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B46C65235B5EA100BF8324 /* HyperlinkView.swift */; };
+		84CC30B7237ECB72003A0382 /* PreferenceKeyAlignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CC30B6237ECB72003A0382 /* PreferenceKeyAlignView.swift */; };
+		84CC30B8237ECB72003A0382 /* PreferenceKeyAlignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CC30B6237ECB72003A0382 /* PreferenceKeyAlignView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,7 @@
 		846B59612356833D00E56491 /* KeypadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeypadView.swift; sourceTree = "<group>"; };
 		84A6C0EE2364FA0C00166014 /* DraggableViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableViews.swift; sourceTree = "<group>"; };
 		84B46C65235B5EA100BF8324 /* HyperlinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperlinkView.swift; sourceTree = "<group>"; };
+		84CC30B6237ECB72003A0382 /* PreferenceKeyAlignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyAlignView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,7 @@
 				846B595D235682C600E56491 /* Keypad */,
 				84B46C64235B5E8700BF8324 /* Hyperlink */,
 				84A6C0ED2364F9D300166014 /* DraggableViews */,
+				84CC30B5237ECB0B003A0382 /* PreferenceKeyAlign */,
 				846B594D23567F9600E56491 /* ContentView.swift */,
 			);
 			path = Components;
@@ -167,6 +171,14 @@
 				84B46C65235B5EA100BF8324 /* HyperlinkView.swift */,
 			);
 			path = Hyperlink;
+			sourceTree = "<group>";
+		};
+		84CC30B5237ECB0B003A0382 /* PreferenceKeyAlign */ = {
+			isa = PBXGroup;
+			children = (
+				84CC30B6237ECB72003A0382 /* PreferenceKeyAlignView.swift */,
+			);
+			path = PreferenceKeyAlign;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +291,7 @@
 				840FDCD7235958CF002D25F9 /* ContentView.swift in Sources */,
 				84B46C67235B5EA100BF8324 /* HyperlinkView.swift in Sources */,
 				840FDCD523595764002D25F9 /* KeypadView.swift in Sources */,
+				84CC30B8237ECB72003A0382 /* PreferenceKeyAlignView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +304,7 @@
 				84B46C66235B5EA100BF8324 /* HyperlinkView.swift in Sources */,
 				846B59642356833D00E56491 /* KeypadView.swift in Sources */,
 				846B594C23567F9600E56491 /* SceneDelegate.swift in Sources */,
+				84CC30B7237ECB72003A0382 /* PreferenceKeyAlignView.swift in Sources */,
 				846B59622356833D00E56491 /* SoundPlayer.swift in Sources */,
 				846B594E23567F9600E56491 /* ContentView.swift in Sources */,
 			);
