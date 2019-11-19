@@ -13,6 +13,7 @@ enum Samples {
     case hyperlink
     case drag
     case preferenceKeyAlign
+    case contextMenu
 }
 
 struct SampleMenu : View {
@@ -31,6 +32,9 @@ struct SampleMenu : View {
             }
             Button(action: { self.selected = .preferenceKeyAlign }) {
                 Text("Alignment with PreferenceKey")
+            }
+            Button(action: { self.selected = .contextMenu }) {
+                Text("Context menu from button")
             }
         }
     }
@@ -51,6 +55,13 @@ struct ContentView: View {
             return AnyView(DraggableContainerView())
         case .preferenceKeyAlign:
             return AnyView(PreferenceKeyAlignView())
+#if os(macOS)
+        case .contextMenu:
+            return AnyView(ContextMenuMac())
+#else
+        case .contextMenu:
+            return AnyView(Text("ButtonMenu is macOS only"))
+#endif
         }
     }
 }

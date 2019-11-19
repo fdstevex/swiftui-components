@@ -15,6 +15,7 @@
 		840FDCD623595764002D25F9 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B595F2356833D00E56491 /* SoundPlayer.swift */; };
 		840FDCD7235958CF002D25F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B594D23567F9600E56491 /* ContentView.swift */; };
 		840FDCD8235958EE002D25F9 /* Sound Files in Resources */ = {isa = PBXBuildFile; fileRef = 846B59602356833D00E56491 /* Sound Files */; };
+		844FD68323840AA6003A0D2C /* ContextMenuMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844FD68223840AA6003A0D2C /* ContextMenuMac.swift */; };
 		846B594A23567F9600E56491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B594923567F9600E56491 /* AppDelegate.swift */; };
 		846B594C23567F9600E56491 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B594B23567F9600E56491 /* SceneDelegate.swift */; };
 		846B594E23567F9600E56491 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B594D23567F9600E56491 /* ContentView.swift */; };
@@ -40,6 +41,7 @@
 		840FDCCE2359572D002D25F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		840FDCD02359572D002D25F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		840FDCD12359572D002D25F9 /* ComponentsMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ComponentsMac.entitlements; sourceTree = "<group>"; };
+		844FD68223840AA6003A0D2C /* ContextMenuMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuMac.swift; sourceTree = "<group>"; };
 		846B594623567F9600E56491 /* Components.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Components.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		846B594923567F9600E56491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		846B594B23567F9600E56491 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		844FD68123840A8F003A0D2C /* Context Menu */ = {
+			isa = PBXGroup;
+			children = (
+				844FD68223840AA6003A0D2C /* ContextMenuMac.swift */,
+			);
+			path = "Context Menu";
+			sourceTree = "<group>";
+		};
 		846B593D23567F9600E56491 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				846B595723567F9900E56491 /* Info.plist */,
+				844FD68123840A8F003A0D2C /* Context Menu */,
 				846B595123567F9900E56491 /* Preview Content */,
 				846B595E235682DB00E56491 /* App Stuff */,
 				846B595D235682C600E56491 /* Keypad */,
@@ -287,6 +298,7 @@
 			files = (
 				84A6C0F02364FA0C00166014 /* DraggableViews.swift in Sources */,
 				840FDCC52359572B002D25F9 /* AppDelegate.swift in Sources */,
+				844FD68323840AA6003A0D2C /* ContextMenuMac.swift in Sources */,
 				840FDCD623595764002D25F9 /* SoundPlayer.swift in Sources */,
 				840FDCD7235958CF002D25F9 /* ContentView.swift in Sources */,
 				84B46C67235B5EA100BF8324 /* HyperlinkView.swift in Sources */,
