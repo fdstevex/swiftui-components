@@ -25,6 +25,10 @@
 		846B59622356833D00E56491 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B595F2356833D00E56491 /* SoundPlayer.swift */; };
 		846B59632356833D00E56491 /* Sound Files in Resources */ = {isa = PBXBuildFile; fileRef = 846B59602356833D00E56491 /* Sound Files */; };
 		846B59642356833D00E56491 /* KeypadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B59612356833D00E56491 /* KeypadView.swift */; };
+		847010E42389674700472DA8 /* SnowfallDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847010E32389674700472DA8 /* SnowfallDemoView.swift */; };
+		847010E52389674700472DA8 /* SnowfallDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847010E32389674700472DA8 /* SnowfallDemoView.swift */; };
+		847010E6238967AA00472DA8 /* SnowfallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847010E2238966FB00472DA8 /* SnowfallView.swift */; };
+		847010E7238967AA00472DA8 /* SnowfallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847010E2238966FB00472DA8 /* SnowfallView.swift */; };
 		84A6C0EF2364FA0C00166014 /* DraggableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6C0EE2364FA0C00166014 /* DraggableViews.swift */; };
 		84A6C0F02364FA0C00166014 /* DraggableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6C0EE2364FA0C00166014 /* DraggableViews.swift */; };
 		84B46C66235B5EA100BF8324 /* HyperlinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B46C65235B5EA100BF8324 /* HyperlinkView.swift */; };
@@ -53,6 +57,8 @@
 		846B595F2356833D00E56491 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		846B59602356833D00E56491 /* Sound Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Sound Files"; sourceTree = "<group>"; };
 		846B59612356833D00E56491 /* KeypadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeypadView.swift; sourceTree = "<group>"; };
+		847010E2238966FB00472DA8 /* SnowfallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowfallView.swift; sourceTree = "<group>"; };
+		847010E32389674700472DA8 /* SnowfallDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowfallDemoView.swift; sourceTree = "<group>"; };
 		84A6C0EE2364FA0C00166014 /* DraggableViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableViews.swift; sourceTree = "<group>"; };
 		84B46C65235B5EA100BF8324 /* HyperlinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperlinkView.swift; sourceTree = "<group>"; };
 		84CC30B6237ECB72003A0382 /* PreferenceKeyAlignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyAlignView.swift; sourceTree = "<group>"; };
@@ -134,6 +140,7 @@
 				84B46C64235B5E8700BF8324 /* Hyperlink */,
 				84A6C0ED2364F9D300166014 /* DraggableViews */,
 				84CC30B5237ECB0B003A0382 /* PreferenceKeyAlign */,
+				847010E1238966E600472DA8 /* Snowflakes */,
 				846B594D23567F9600E56491 /* ContentView.swift */,
 			);
 			path = Components;
@@ -166,6 +173,15 @@
 				846B595423567F9900E56491 /* LaunchScreen.storyboard */,
 			);
 			path = "App Stuff";
+			sourceTree = "<group>";
+		};
+		847010E1238966E600472DA8 /* Snowflakes */ = {
+			isa = PBXGroup;
+			children = (
+				847010E2238966FB00472DA8 /* SnowfallView.swift */,
+				847010E32389674700472DA8 /* SnowfallDemoView.swift */,
+			);
+			path = Snowflakes;
 			sourceTree = "<group>";
 		};
 		84A6C0ED2364F9D300166014 /* DraggableViews */ = {
@@ -300,6 +316,8 @@
 				840FDCC52359572B002D25F9 /* AppDelegate.swift in Sources */,
 				844FD68323840AA6003A0D2C /* ContextMenuMac.swift in Sources */,
 				840FDCD623595764002D25F9 /* SoundPlayer.swift in Sources */,
+				847010E7238967AA00472DA8 /* SnowfallView.swift in Sources */,
+				847010E52389674700472DA8 /* SnowfallDemoView.swift in Sources */,
 				840FDCD7235958CF002D25F9 /* ContentView.swift in Sources */,
 				84B46C67235B5EA100BF8324 /* HyperlinkView.swift in Sources */,
 				840FDCD523595764002D25F9 /* KeypadView.swift in Sources */,
@@ -315,6 +333,8 @@
 				846B594A23567F9600E56491 /* AppDelegate.swift in Sources */,
 				84B46C66235B5EA100BF8324 /* HyperlinkView.swift in Sources */,
 				846B59642356833D00E56491 /* KeypadView.swift in Sources */,
+				847010E6238967AA00472DA8 /* SnowfallView.swift in Sources */,
+				847010E42389674700472DA8 /* SnowfallDemoView.swift in Sources */,
 				846B594C23567F9600E56491 /* SceneDelegate.swift in Sources */,
 				84CC30B7237ECB72003A0382 /* PreferenceKeyAlignView.swift in Sources */,
 				846B59622356833D00E56491 /* SoundPlayer.swift in Sources */,

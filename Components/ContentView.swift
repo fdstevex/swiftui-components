@@ -14,6 +14,7 @@ enum Samples {
     case drag
     case preferenceKeyAlign
     case contextMenu
+    case snow
 }
 
 struct SampleMenu : View {
@@ -35,6 +36,9 @@ struct SampleMenu : View {
             }
             Button(action: { self.selected = .contextMenu }) {
                 Text("Context menu from button")
+            }
+            Button(action: { self.selected = .snow }) {
+                Text("Falling Snow")
             }
         }
     }
@@ -62,6 +66,8 @@ struct ContentView: View {
         case .contextMenu:
             return AnyView(Text("ButtonMenu is macOS only"))
 #endif
+        case .snow:
+            return AnyView(SnowfallDemoView())
         }
     }
 }
