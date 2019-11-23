@@ -59,6 +59,8 @@
 		846B59612356833D00E56491 /* KeypadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeypadView.swift; sourceTree = "<group>"; };
 		847010E2238966FB00472DA8 /* SnowfallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowfallView.swift; sourceTree = "<group>"; };
 		847010E32389674700472DA8 /* SnowfallDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowfallDemoView.swift; sourceTree = "<group>"; };
+		847010E823896C9C00472DA8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		847010E923896E1D00472DA8 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		84A6C0EE2364FA0C00166014 /* DraggableViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableViews.swift; sourceTree = "<group>"; };
 		84B46C65235B5EA100BF8324 /* HyperlinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperlinkView.swift; sourceTree = "<group>"; };
 		84CC30B6237ECB72003A0382 /* PreferenceKeyAlignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyAlignView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,8 @@
 		846B593D23567F9600E56491 = {
 			isa = PBXGroup;
 			children = (
+				847010E823896C9C00472DA8 /* README.md */,
+				847010E923896E1D00472DA8 /* LICENSE.txt */,
 				846B594823567F9600E56491 /* Components */,
 				840FDCC32359572B002D25F9 /* ComponentsMac */,
 				846B594723567F9600E56491 /* Products */,
