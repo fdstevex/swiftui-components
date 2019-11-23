@@ -36,6 +36,8 @@ class SnowfallController : ObservableObject {
     var flakes = [SnowflakeInfo]()
     var snowfieldSize = CGSize()
 
+    // Return a transparent Rectangle so this can be called from a ViewBuilder
+    // without having any effect on the view.
     func setSize(_ size: CGSize) -> AnyView {
         snowfieldSize = size
         return AnyView(Rectangle().opacity(0.0))
