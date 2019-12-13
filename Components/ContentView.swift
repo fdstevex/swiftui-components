@@ -54,7 +54,7 @@ struct ContentView: View {
         case .keypad:
             return AnyView(KeypadContainerView())
         case .hyperlink:
-            return AnyView(HyperlinkView())
+            return AnyView(HyperlinkDemoView())
         case .drag:
             return AnyView(DraggableContainerView())
         case .preferenceKeyAlign:
